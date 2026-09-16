@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
               Upanema / RN e Região
             </span>
             
-            <h1 class="text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
+            <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold leading-snug tracking-tight max-w-xl">
               Soluções Contábeis e Administrativas para o <span class="text-gold">Crescimento</span> do Seu Negócio.
             </h1>
 
