@@ -36,8 +36,8 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
                   <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
                 </div>
                 <div>
-                  <h4 class="font-bold text-navy text-sm">Telefone / WhatsApp</h4>
-                  <p class="text-slate-600 text-xs mt-0.5">(84) 99114-3874</p>
+                  <h4 class="font-bold text-navy text-sm">Telefone</h4>
+                  <p class="text-slate-600 text-xs mt-0.5">(84) 99456-2228</p>
                 </div>
               </div>
             </div>
@@ -62,7 +62,7 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
             @if (formSubmitted) {
               <div class="p-6 bg-green-50 border border-green-200 rounded-lg text-center">
                 <h4 class="font-bold text-green-800 text-lg">Solicitação Enviada com Sucesso!</h4>
-                <p class="text-green-700 text-sm mt-1">Nossa equipe retornará no seu telefone/WhatsApp em breve.</p>
+                <p class="text-green-700 text-sm mt-1">Nossa equipe retornará no seu WhatsApp em breve.</p>
                 <button (click)="formSubmitted = false" class="mt-4 text-xs font-bold text-navy underline">
                   Enviar outra mensagem
                 </button>
