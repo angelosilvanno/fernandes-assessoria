@@ -42,19 +42,6 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
               </div>
             </div>
 
-            <!-- Botão WhatsApp com o número oficial real -->
-            <div class="pt-4">
-              <a 
-                href="https://wa.me/5584994562228?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20com%20a%20Fernandes%20Assessoria." 
-                target="_blank" 
-                rel="noopener noreferrer"
-                class="inline-flex items-center gap-3 px-6 py-3.5 bg-whatsapp text-white font-bold rounded-lg shadow-md hover:opacity-95 transition-all text-sm">
-                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.772.84 2.791.84 3.18 0 5.767-2.587 5.768-5.766.001-3.182-2.585-5.826-5.768-5.826zm3.435 8.163c-.144.405-.836.774-1.17.822-.312.043-.683.07-1.101-.069-.252-.084-.576-.187-.988-.368-1.751-.77-2.883-2.55-2.97-2.666-.088-.118-.716-.953-.716-1.815 0-.862.451-1.２８６.6１１-１．４６．１６－．１７４．３４９－．２１８．４６５－．２１８．１１７ ０．２３３．００１．３３４．００６．１０７．００５．２５－．０４１．３９１．２９８．１４４．３４９．４９３ １．２０２．５３６ １．２９．０４４．０８８．０７３．１９．０１５．３０５－．０５９．１１８－．０８８．１９２－．１７５．２９３－．０８７．１０３－．１８４．２３－．２６３．３０８－．０８８．０８９－．１８．１８５－．０７７。３６２。１０３。１７７。４５８。７５６。９８３ ₁。₂₂₄。₆₇₅。₆₀₂。₁。₂₄₄。₇₈₈。₁。₄₂₁。₈₇₆。₁。₇₆。₀₈₈。₂。₂₇₉。₀₇₄。₃。₈₃－。₀₄⁴。₁。₀³³z"/>
-                </svg>
-                Atendimento via WhatsApp
-              </a>
-            </div>
           </div>
 
           <!-- Formulário com os 6 serviços atualizados -->
