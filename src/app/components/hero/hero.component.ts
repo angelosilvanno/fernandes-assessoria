@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
-          <!-- Coluna da Esquerda -->
           <div class="lg:col-span-7 space-y-6">
             <span class="inline-block px-3.5 py-1 text-xs font-semibold tracking-wider text-gold border border-gold/40 rounded-full uppercase bg-gold/10">
               Upanema / RN e Região
@@ -34,21 +33,18 @@ import { Component } from '@angular/core';
             </div>
           </div>
 
-          <!-- Coluna da Direita -->
-            <div class="lg:col-span-5 relative flex justify-center">
-              <div class="relative w-full max-w-md">
-                <img 
-                  src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80" 
-                  alt="Ambiente de Consultoria Contábil" 
-                  class="rounded-2xl shadow-2xl object-cover w-full h-105 border border-white/10"
-                />
+          <div class="lg:col-span-5 relative flex justify-center">
+            <div class="relative w-full max-w-md">
+              <img 
+                src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80" 
+                alt="Ambiente de Consultoria Contábil" 
+                class="rounded-2xl shadow-2xl object-cover w-full h-105 border border-white/10"
+              />
 
-                <div class="absolute -bottom-6 -left-6 bg-white text-navy p-5 rounded-xl shadow-2xl border-l-4 border-gold">
-                  <span class="block text-2xl sm:text-3xl font-black text-navy">+{{ yearsOfExperience }} Anos</span>
-                  <span class="text-xs font-semibold text-slate-500 uppercase tracking-wide">De Experiência Sólida</span>
-                </div>
+              <div class="absolute -bottom-6 -left-6 bg-white text-navy p-5 rounded-xl shadow-2xl border-l-4 border-gold">
+                <span class="block text-2xl sm:text-3xl font-black text-navy">+{{ yearsOfExperience }} Anos</span>
+                <span class="text-xs font-semibold text-slate-500 uppercase tracking-wide">De Experiência Sólida</span>
               </div>
-            </div>
             </div>
           </div>
 

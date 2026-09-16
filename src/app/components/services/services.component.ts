@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
         
         <div class="text-center max-w-3xl mx-auto mb-16">
           <span class="text-xs font-bold uppercase tracking-widest text-gold">SOLUÇÕES COMPLETAS</span>
-          <h2 class="text-3xl sm:text-4xl font-bold text-navy mt-2">Nossos Serviços Especializados</h2>
+          <h2 class="text-3xl sm:text-4xl font-bold text-navy mt-2">Nossos Serviços</h2>
           <div class="w-12 h-1 bg-gold mx-auto mt-4 rounded"></div>
           <p class="text-slate-500 text-sm mt-4">
             Atuação integrada para atender as demandas administrativas, fiscais e operacionais da sua organização.

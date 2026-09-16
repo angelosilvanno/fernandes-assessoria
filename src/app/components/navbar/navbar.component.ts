@@ -50,7 +50,7 @@ import { CommonModule } from '@angular/common';
       @if (isMobileMenuOpen) {
         <div class="md:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-3">
           <a (click)="isMobileMenuOpen = false" href="#inicio" class="block text-slate-700 font-medium py-2">Início</a>
-          <a (click)="isMobileMenuOpen = false" href="#sobre" class="block text-slate-700 font-medium py-2">Sobre Nós</a>
+          <a (click)="isMobileMenuOpen = false" href="#sobre" class="block text-slate-700 font-medium py-2">Sobre</a>
           <a (click)="isMobileMenuOpen = false" href="#servicos" class="block text-slate-700 font-medium py-2">Serviços</a>
           <a (click)="isMobileMenuOpen = false" href="#diferenciais" class="block text-slate-700 font-medium py-2">Diferenciais</a>
           <a (click)="isMobileMenuOpen = false" href="#contato" class="block text-slate-700 font-medium py-2">Contato</a>
