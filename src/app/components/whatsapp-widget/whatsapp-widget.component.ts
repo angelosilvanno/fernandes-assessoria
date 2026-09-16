@@ -6,4 +6,4 @@ import { Component } from '@angular/core';
   template: ` <p>whatsapp-widget works!</p> `,
   styles: ``,
 })
-export class WhatsappWidget {}
+export class WhatsappWidgetComponent {}
