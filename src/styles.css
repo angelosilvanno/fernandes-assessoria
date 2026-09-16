@@ -1,3 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
 
-@import 'tailwindcss';
+@theme {
+  --color-navy: #0B1B3D;
+  --color-navy-dark: #07122A;
+  --color-navy-light: #132857;
+
+  --color-gold: #C5A059;
+  --color-gold-hover: #B38F46;
+  --color-gold-light: #DFBA74;
+
+  --color-whatsapp: #25D366;
+  --color-slate-light: #F8F9FA;
+}
+
+html {
+  scroll-behavior: smooth;
+}
