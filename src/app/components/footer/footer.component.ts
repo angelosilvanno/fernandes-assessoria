@@ -49,11 +49,8 @@ import { Component } from '@angular/core';
           <!-- Coluna 4: Atendimento Oficial -->
           <div>
             <h4 class="text-sm font-semibold text-gold uppercase tracking-wider mb-4">Contato Direto</h4>
-            <p class="text-sm text-slate-300 mb-1">Telefone: (84) 99114-3874</p>
+            <p class="text-sm text-slate-300 mb-1">Telefone: (84) 99456-2228</p>
             <p class="text-sm text-slate-300 mb-4">Upanema - RN e Região Potiguar</p>
-            <span class="inline-block px-3 py-1 bg-white/10 rounded text-xs text-gold border border-gold/30">
-              Fundada em 2017
-            </span>
           </div>
 
         </div>
