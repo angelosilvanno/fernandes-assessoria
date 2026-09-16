@@ -11,12 +11,12 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
           
-          <!-- Coluna Esquerda: Informações Institucionais -->
+          <!-- Coluna de Informações Reais -->
           <div class="lg:col-span-5 space-y-6">
             <span class="text-xs font-bold uppercase tracking-widest text-gold">CANAIS DE ATENDIMENTO</span>
             <h2 class="text-3xl sm:text-4xl font-bold text-navy">Fale Conosco</h2>
             <p class="text-slate-600 text-sm leading-relaxed">
-              Estamos prontos para atender você presencialmente ou digitalmente. Preencha o formulário ou entre em contato diretamente pelo nosso canal oficial no WhatsApp.
+              Atendimento com hora marcada ou via canais digitais. Solicite seu orçamento ou tire dúvidas com nossa equipe.
             </p>
 
             <div class="space-y-4 pt-2">
@@ -25,26 +25,27 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
                   <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 </div>
                 <div>
-                  <h4 class="font-bold text-navy text-sm">Localização</h4>
-                  <p class="text-slate-600 text-xs mt-0.5">Upanema - RN, Região Oeste Potiguar</p>
+                  <h4 class="font-bold text-navy text-sm">Endereço Sede</h4>
+                  <p class="text-slate-600 text-xs mt-0.5">Rua José Lopes, 26 - Centro</p>
+                  <p class="text-slate-500 text-[11px]">Upanema - RN, CEP 59.670-000</p>
                 </div>
               </div>
 
               <div class="flex items-start gap-4">
                 <div class="w-10 h-10 rounded bg-navy text-gold flex items-center justify-center shrink-0">
-                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
                 </div>
                 <div>
-                  <h4 class="font-bold text-navy text-sm">E-mail</h4>
-                  <p class="text-slate-600 text-xs mt-0.5">contato&#64;fernandesassessoria.com.br</p>
+                  <h4 class="font-bold text-navy text-sm">Telefone / WhatsApp</h4>
+                  <p class="text-slate-600 text-xs mt-0.5">(84) 99114-3874</p>
                 </div>
               </div>
             </div>
 
-            <!-- Botão WhatsApp Direto -->
+            <!-- Botão WhatsApp com o número oficial real -->
             <div class="pt-4">
               <a 
-                href="https://wa.me/5584999999999?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." 
+                href="https://wa.me/5584991143874?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20com%20a%20Fernandes%20Assessoria." 
                 target="_blank" 
                 rel="noopener noreferrer"
                 class="inline-flex items-center gap-3 px-6 py-3.5 bg-whatsapp text-white font-bold rounded-lg shadow-md hover:opacity-95 transition-all text-sm">
@@ -56,12 +57,12 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
             </div>
           </div>
 
-          <!-- Coluna Direita: Formulário Reativo -->
+          <!-- Formulário com os 6 serviços atualizados -->
           <div class="lg:col-span-7 bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
             @if (formSubmitted) {
               <div class="p-6 bg-green-50 border border-green-200 rounded-lg text-center">
                 <h4 class="font-bold text-green-800 text-lg">Solicitação Enviada com Sucesso!</h4>
-                <p class="text-green-700 text-sm mt-1">Nossa equipe retornará o contato no menor tempo possível.</p>
+                <p class="text-green-700 text-sm mt-1">Nossa equipe retornará no seu telefone/WhatsApp em breve.</p>
                 <button (click)="formSubmitted = false" class="mt-4 text-xs font-bold text-navy underline">
                   Enviar outra mensagem
                 </button>
@@ -72,13 +73,9 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
                   <div>
                     <label class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">Nome Completo *</label>
                     <input type="text" formControlName="name" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-navy/20 focus:border-navy" placeholder="Seu nome" />
-                    @if (contactForm.get('name')?.invalid && contactForm.get('name')?.touched) {
-                      <span class="text-xs text-red-500">Nome é obrigatório.</span>
-                    }
                   </div>
-
                   <div>
-                    <label class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">Empresa</label>
+                    <label class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">Empresa / Razão Social</label>
                     <input type="text" formControlName="company" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-navy/20 focus:border-navy" placeholder="Nome da empresa" />
                   </div>
                 </div>
@@ -86,38 +83,30 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">E-mail *</label>
-                    <input type="email" formControlName="email" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-navy/20 focus:border-navy" placeholder="exemplo@email.com" />
-                    @if (contactForm.get('email')?.invalid && contactForm.get('email')?.touched) {
-                      <span class="text-xs text-red-500">E-mail válido obrigatório.</span>
-                    }
+                    <input type="email" formControlName="email" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-navy/20 focus:border-navy" placeholder="seuemail@empresa.com" />
                   </div>
-
                   <div>
-                    <label class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">Telefone / WhatsApp *</label>
+                    <label class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">WhatsApp / Telefone *</label>
                     <input type="text" formControlName="phone" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-navy/20 focus:border-navy" placeholder="(84) 99999-9999" />
-                    @if (contactForm.get('phone')?.invalid && contactForm.get('phone')?.touched) {
-                      <span class="text-xs text-red-500">Telefone é obrigatório.</span>
-                    }
                   </div>
                 </div>
 
                 <div>
                   <label class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">Serviço de Interesse</label>
                   <select formControlName="service" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-navy/20 focus:border-navy bg-white">
-                    <option value="">Selecione uma opção...</option>
-                    <option value="contabil">Gestão Contábil e Tributária</option>
-                    <option value="administrativo">Consultoria e Apoio Administrativo</option>
-                    <option value="treinamento">Treinamento e Desenvolvimento</option>
-                    <option value="eventos">Organização de Eventos e Locação</option>
+                    <option value="">Selecione o serviço desejado...</option>
+                    <option value="contabil">Assessoria Contábil e Tributária</option>
+                    <option value="gestao">Gestão e Apoio Administrativo (BPO)</option>
+                    <option value="treinamento">Treinamento & Desenvolvimento Corporativo</option>
+                    <option value="eventos">Organização de Eventos e Estruturas</option>
+                    <option value="maquinas">Locação de Máquinas e Equipamentos</option>
+                    <option value="mao_de_obra">Locação de Mão de Obra e Transporte</option>
                   </select>
                 </div>
 
                 <div>
                   <label class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">Mensagem *</label>
-                  <textarea rows="4" formControlName="message" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-navy/20 focus:border-navy" placeholder="Conte brevemente sobre o seu projeto ou necessidade..."></textarea>
-                  @if (contactForm.get('message')?.invalid && contactForm.get('message')?.touched) {
-                    <span class="text-xs text-red-500">Mensagem é obrigatória.</span>
-                  }
+                  <textarea rows="4" formControlName="message" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-navy/20 focus:border-navy" placeholder="Conte-nos como podemos ajudar..."></textarea>
                 </div>
 
                 <button 
@@ -152,7 +141,6 @@ export class ContactComponent {
 
   onSubmit() {
     if (this.contactForm.valid) {
-      console.log('Dados do Contato:', this.contactForm.value);
       this.formSubmitted = true;
       this.contactForm.reset();
     }
