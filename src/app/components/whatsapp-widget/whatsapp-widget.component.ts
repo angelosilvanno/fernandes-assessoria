@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
       </span>
 
       <a 
-        href="https://wa.me/5584994562228?text=Olá!%20Gostaria%20de%20falar%20com%20a%20equipe%20da%20Fernandes%20Assessoria." 
+        href="https://wa.me/5584994562228?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20com%20a%20Fernandes%20Assessoria." 
         target="_blank" 
         rel="noopener noreferrer"
         aria-label="Contato via WhatsApp"
