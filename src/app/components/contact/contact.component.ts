@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 
+const ACCESS_KEY = '87d6426e-ad8c-483b-ae83-5a764ac46e93';
+
 @Component({
   selector: 'app-contact',
   standalone: true,
@@ -11,7 +13,6 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
           
-          <!-- Coluna de Informações Reais -->
           <div class="lg:col-span-5 space-y-6">
             <span class="text-xs font-bold uppercase tracking-widest text-gold">CANAIS DE ATENDIMENTO</span>
             <h2 class="text-3xl sm:text-4xl font-bold text-navy">Fale Conosco</h2>
@@ -44,7 +45,6 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
 
           </div>
 
-          <!-- Formulário com os 6 serviços atualizados -->
           <div class="lg:col-span-7 bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
             @if (formSubmitted) {
               <div class="p-6 bg-green-50 border border-green-200 rounded-lg text-center">
@@ -126,10 +126,35 @@ export class ContactComponent {
     });
   }
 
-  onSubmit() {
+  async onSubmit() {
     if (this.contactForm.valid) {
-      this.formSubmitted = true;
-      this.contactForm.reset();
+      try {
+        const response = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({
+            access_key: ACCESS_KEY,
+            name: this.contactForm.value.name,
+            company: this.contactForm.value.company,
+            email: this.contactForm.value.email,
+            phone: this.contactForm.value.phone,
+            service: this.contactForm.value.service,
+            message: this.contactForm.value.message
+          })
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+          this.formSubmitted = true;
+          this.contactForm.reset();
+        }
+      } catch (error) {
+        console.error(error);
+      }
     }
   }
 }
