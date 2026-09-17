@@ -24,7 +24,7 @@ import { CommonModule } from '@angular/common';
         <!-- Desktop Nav -->
         <nav class="hidden md:flex items-center space-x-8">
           <a href="#inicio" class="text-sm font-medium text-slate-700 hover:text-gold transition-colors">Início</a>
-          <a href="#sobre" class="text-sm font-medium text-slate-700 hover:text-gold transition-colors">Sobre Nós</a>
+          <a href="#sobre" class="text-sm font-medium text-slate-700 hover:text-gold transition-colors">Sobre</a>
           <a href="#servicos" class="text-sm font-medium text-slate-700 hover:text-gold transition-colors">Serviços</a>
           <a href="#diferenciais" class="text-sm font-medium text-slate-700 hover:text-gold transition-colors">Diferenciais</a>
           <a href="#contato" class="text-sm font-medium text-slate-700 hover:text-gold transition-colors">Contato</a>
