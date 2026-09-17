@@ -81,13 +81,13 @@ const ACCESS_KEY = '87d6426e-ad8c-483b-ae83-5a764ac46e93';
                 <div>
                   <label class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">Serviço de Interesse</label>
                   <select formControlName="service" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-navy/20 focus:border-navy bg-white">
-                    <option value="">Selecione o serviço desejado...</option>
-                    <option value="contabil">Assessoria Contábil e Tributária</option>
-                    <option value="gestao">Gestão e Apoio Administrativo (BPO)</option>
-                    <option value="treinamento">Treinamento & Desenvolvimento Corporativo</option>
-                    <option value="eventos">Organização de Eventos e Estruturas</option>
-                    <option value="maquinas">Locação de Máquinas e Equipamentos</option>
-                    <option value="mao_de_obra">Locação de Mão de Obra e Transporte</option>
+                    <option value="">Selecione o serviço de interesse...</option>
+                    <option value="Prestação de Contas (SIOPE / SIOPS)">Prestações de Contas (SIOPE / SIOPS)</option>
+                    <option value="RH e Folha do Setor Público">RH e Folha de Pagamento do Setor Público</option>
+                    <option value="Gestão Contábil e Orçamentária Municipal">Gestão Contábil e Orçamentária Municipal</option>
+                    <option value="Planos de Trabalho (Saúde, Educação e Assistência)">Planos de Trabalho (Saúde, Educação, Assistência)</option>
+                    <option value="Prestação de Contas de Caixa Escolar">Prestação de Contas de Caixa Escolar (PDDE)</option>
+                    <option value="Consultoria e Capacitação em Gestão Pública">Consultoria e Apoio Administrativo Geral</option>
                   </select>
                 </div>
 

@@ -26,40 +26,45 @@ import { Component } from '@angular/core';
             <h4 class="text-sm font-semibold text-gold uppercase tracking-wider mb-4">Navegação</h4>
             <ul class="space-y-2 text-sm text-slate-300">
               <li><a href="#inicio" class="hover:text-white transition-colors">Início</a></li>
-              <li><a href="#sobre" class="hover:text-white transition-colors">Sobre Nós</a></li>
+              <li><a href="#sobre" class="hover:text-white transition-colors">Sobre</a></li>
               <li><a href="#servicos" class="hover:text-white transition-colors">Serviços</a></li>
               <li><a href="#diferenciais" class="hover:text-white transition-colors">Diferenciais</a></li>
               <li><a href="#contato" class="hover:text-white transition-colors">Contato</a></li>
             </ul>
           </div>
 
-          <!-- Coluna 3: Especialidades Reais -->
+          <!-- Coluna 3: Áreas de Atuação Públicas Atualizadas -->
           <div>
             <h4 class="text-sm font-semibold text-gold uppercase tracking-wider mb-4">Áreas de Atuação</h4>
             <ul class="space-y-2 text-sm text-slate-300">
-              <li>Assessoria Contábil & Fiscal</li>
-              <li>BPO & Gestão Administrativa</li>
-              <li>Treinamento Profissional</li>
-              <li>Organização de Eventos</li>
-              <li>Locação de Estruturas e Equipamentos</li>
-              <li>Mão de Obra e Logística</li>
+              <li>Prestações SIOPE e SIOPS</li>
+              <li>RH e Folha do Setor Público</li>
+              <li>Contábil e Orçamento Municipal</li>
+              <li>Planos de Trabalho (Saúde, Educ. e Assist.)</li>
+              <li>Prestação de Caixa Escolar</li>
+              <li>Consultoria e Gestão Pública</li>
             </ul>
           </div>
 
-          <!-- Coluna 4: Atendimento Oficial -->
+          <!-- Coluna 4: Contato Direto -->
           <div>
             <h4 class="text-sm font-semibold text-gold uppercase tracking-wider mb-4">Contato Direto</h4>
             <p class="text-sm text-slate-300 mb-1">Telefone: (84) 99456-2228</p>
             <p class="text-sm text-slate-300 mb-4">Upanema - RN e Região Potiguar</p>
+            <span class="inline-block px-3 py-1 bg-white/10 rounded text-xs text-gold border border-gold/30">
+              Fundada em 2017
+            </span>
           </div>
 
         </div>
 
         <div class="pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-400 gap-4">
-          <p>© 2026 Fernandes Assessoria Contábil e Administrativa. CNPJ 27.097.495/0001-75. Todos os direitos reservados.</p>
+          <p>© {{ currentYear }} Fernandes Assessoria Contábil e Administrativa. CNPJ 27.097.495/0001-75. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
   `
 })
-export class FooterComponent {}
+export class FooterComponent {
+  currentYear = new Date().getFullYear();
+}
