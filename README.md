@@ -35,7 +35,7 @@ Siga este passo a passo para colocar o ambiente de desenvolvimento local a rodar
 
 1. **Clonar o repositório:**
 ```bash
-git clone [https://github.com/angelosilvanno/fernandes-assessoria.git](https://github.com/angelosilvanno/fernandes-assessoria.git)
+git clone https://github.com/angelosilvanno/fernandes-assessoria.git
 
 ```
 
@@ -46,13 +46,11 @@ cd fernandes-assessoria
 
 ```
 
-
 3. **Instalar as dependências do projeto:**
 ```bash
 npm install
 
 ```
-
 
 4. **Executar o servidor de desenvolvimento:**
 ```bash
@@ -76,6 +74,3 @@ As seguintes ferramentas e tecnologias foram utilizadas no desenvolvimento deste
 ## 👷 Autor
 
 * **Ângelo Silvano** - *Desenvolvedor FullStack* - [@angelosilvanno](https://github.com/angelosilvanno?utm_source=gemini)
-
-
-```
