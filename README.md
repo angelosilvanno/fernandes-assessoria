@@ -12,8 +12,6 @@ Este projeto tem como objetivo principal estabelecer a presença digital e a aut
 - **Botão Flutuante do WhatsApp:** Atendimento rápido e direto com um clique.
 - **Otimização de SEO:** Configurado para indexação rápida no Google Search Console, Open Graph e meta tags de verificação.
 
----
-
 ### ⚙️ Pré-requisitos
 
 Antes de começar, garante que tens as seguintes ferramentas instaladas no teu computador:
