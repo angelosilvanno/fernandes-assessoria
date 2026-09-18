@@ -69,8 +69,6 @@ As seguintes ferramentas e tecnologias foram utilizadas no desenvolvimento deste
 * **[Vercel](https://vercel.com/?utm_source=gemini)** - Plataforma de alojamento e deploy contínuo
 * **[Hostinger](https://www.hostinger.pt/?utm_source=gemini)** - Gestão do domínio próprio e DNS (`fernandesassessoria.cnt.br`)
 
----
-
 ## 👷 Autor
 
 * **Ângelo Silvano** - *Desenvolvedor FullStack* - [@angelosilvanno](https://github.com/angelosilvanno?utm_source=gemini)
