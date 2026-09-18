@@ -29,8 +29,6 @@ npm -v
 
 ```
 
----
-
 ### 🔨 Guia de instalação
 
 Siga este passo a passo para colocar o ambiente de desenvolvimento local a rodar:
@@ -62,7 +60,6 @@ ng serve
 
 ```
 
-
 ## 📦 Tecnologias usadas
 
 As seguintes ferramentas e tecnologias foram utilizadas no desenvolvimento deste projeto:
@@ -80,6 +77,5 @@ As seguintes ferramentas e tecnologias foram utilizadas no desenvolvimento deste
 
 * **Ângelo Silvano** - *Desenvolvedor FullStack* - [@angelosilvanno](https://github.com/angelosilvanno?utm_source=gemini)
 
-```
 
 ```
