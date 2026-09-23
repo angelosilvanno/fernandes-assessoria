@@ -1,4 +1,4 @@
-# Fernandes Assessoria Contábil e Administrativa
+# Fernandes Assessoria e Administrativa
 
 Landing page institucional desenvolvida para a **Fernandes Assessoria**, com foco na apresentação de serviços de assessoria contábil, orçamentária e de RH voltados para o setor público e municípios da região, além de captura de clientes e otimização para motores de busca (SEO).
 
