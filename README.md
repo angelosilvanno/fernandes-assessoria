@@ -1,59 +1,72 @@
-# FernandesAssessoria
+# Fernandes Assessoria Contábil e Administrativa
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.24.
+Landing page institucional desenvolvida para a **Fernandes Assessoria**, com foco na apresentação de serviços de assessoria contábil, orçamentária e de RH voltados para o setor público e municípios da região, além de captura de clientes e otimização para motores de busca (SEO).
 
-## Development server
+## 🔥 Introdução
 
-To start a local development server, run:
+Este projeto tem como objetivo principal estabelecer a presença digital e a autoridade da Fernandes Assessoria Contábil e Administrativa. A aplicação foi construída para oferecer uma navegação rápida, intuitiva e responsiva em qualquer dispositivo.
 
+### Principais Funcionalidades:
+- **Apresentação de Serviços:** Detalhamento de prestações de contas governamentais (SIOPE, SIOPS, Caixa Escolar), planejamento orçamentário e gestão de RH.
+- **Formulário de Contacto Integrado:** Envio direto de mensagens para a equipa via Web3Forms.
+- **Botão Flutuante do WhatsApp:** Atendimento rápido e direto com um clique.
+- **Otimização de SEO:** Configurado para indexação rápida no Google Search Console, Open Graph e meta tags de verificação.
+
+### ⚙️ Pré-requisitos
+
+Antes de começar, garante que tens as seguintes ferramentas instaladas no teu computador:
+
+- **Node.js** (versão 18 ou superior)
+- **npm** (gerenciador de pacotes do Node)
+- **Angular CLI** (versão 21.2.24)
+
+Para verificar se já tens o Node e o npm instalados, executa no terminal:
+```bash
+node -v
+npm -v
+
+```
+
+### 🔨 Guia de instalação
+
+Siga este passo a passo para colocar o ambiente de desenvolvimento local a rodar:
+
+1. **Clonar o repositório:**
+```bash
+git clone https://github.com/angelosilvanno/fernandes-assessoria.git
+
+```
+
+
+2. **Aceder à pasta do projeto:**
+```bash
+cd fernandes-assessoria
+
+```
+
+3. **Instalar as dependências do projeto:**
+```bash
+npm install
+
+```
+
+4. **Executar o servidor de desenvolvimento:**
 ```bash
 ng serve
+
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 📦 Tecnologias usadas
 
-## Code scaffolding
+As seguintes ferramentas e tecnologias foram utilizadas no desenvolvimento deste projeto:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+* **[Angular](https://angular.io/?utm_source=gemini)** - Framework web para a criação da interface
+* **[TypeScript](https://www.typescriptlang.org/?utm_source=gemini)** - Linguagem principal de desenvolvimento
+* **[Tailwind CSS](https://tailwindcss.com/?utm_source=gemini)** - Framework de CSS para estilização e responsividade
+* **[Web3Forms](https://web3forms.com/?utm_source=gemini)** - Integração e envio de mensagens do formulário
+* **[Vercel](https://vercel.com/?utm_source=gemini)** - Plataforma de alojamento e deploy contínuo
+* **[Hostinger](https://www.hostinger.pt/?utm_source=gemini)** - Gestão do domínio próprio e DNS (`fernandesassessoria.cnt.br`)
 
-```bash
-ng generate component component-name
-```
+## 👷 Autor
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+* **Ângelo Silvano** - *Desenvolvedor FullStack* - [@angelosilvanno](https://github.com/angelosilvanno?utm_source=gemini)
