@@ -38,7 +38,7 @@ import { Component } from '@angular/core';
             <h4 class="text-sm font-semibold text-gold uppercase tracking-wider mb-4">Áreas de Atuação</h4>
             <ul class="space-y-2 text-sm text-slate-300">
               <li>Prestações SIOPE e SIOPS</li>
-              <li>RH e Folha do Setor Público</li>
+              <li>Folha de Pagamento do Setor Público</li>
               <li>Contábil e Orçamento Municipal</li>
               <li>Planos de Trabalho (Saúde, Educ. e Assist.)</li>
               <li>Prestação de Caixa Escolar</li>
