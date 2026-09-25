@@ -24,7 +24,7 @@ import { Component } from '@angular/core';
             <h2 class="text-3xl sm:text-4xl font-bold text-navy mt-2 mb-6">Sobre a Fernandes Assessoria</h2>
             
             <p class="text-slate-600 mb-6 leading-relaxed">
-              Atuamos como parceiros estratégicos de prefeituras, câmaras e secretarias municipais, assegurando rigor técnico perante os órgãos de controle e máxima conformidade contábil. Nosso propósito é garantir segurança orçamentária e transparência fiscal para que a administração pública entregue serviços de qualidade à população.
+              Atuamos como parceiros estratégicos de prefeituras, câmaras e secretarias municipais, garantindo conformidade contábil e segurança orçamentária perante os órgãos de controle. Nosso compromisso é levar tranquilidade técnica e transparência para fortalecer a gestão pública.
             </p>
 
             <!-- Pilares 2x2 -->
