@@ -24,26 +24,26 @@ import { Component } from '@angular/core';
             <h2 class="text-3xl sm:text-4xl font-bold text-navy mt-2 mb-6">Sobre a Fernandes Assessoria</h2>
             
             <p class="text-slate-600 mb-6 leading-relaxed">
-              Atuamos como parceiros estratégicos de micro, pequenas e médias empresas, desmistificando a complexidade contábil e fiscal do Brasil. Nosso propósito é simplificar a gestão corporativa para que o gestor foque exclusivamente em faturar e expandir.
+              Atuamos como parceiros estratégicos de prefeituras, câmaras e secretarias municipais, assegurando rigor técnico perante os órgãos de controle e máxima conformidade contábil. Nosso propósito é garantir segurança orçamentária e transparência fiscal para que a administração pública entregue serviços de qualidade à população.
             </p>
 
             <!-- Pilares 2x2 -->
             <div class="grid grid-cols-2 gap-4 mb-8">
               <div class="p-4 bg-white rounded-lg border border-slate-200 shadow-sm">
                 <span class="block font-bold text-navy">Ética</span>
-                <span class="text-xs text-slate-500">Rigor e conformidade legal total.</span>
+                <span class="text-xs text-slate-500">Rigor perante tribunais e normas legais.</span>
               </div>
               <div class="p-4 bg-white rounded-lg border border-slate-200 shadow-sm">
                 <span class="block font-bold text-navy">Transparência</span>
-                <span class="text-xs text-slate-500">Comunicação clara e acessível.</span>
+                <span class="text-xs text-slate-500">Clareza nas contas e informações fiscais.</span>
               </div>
               <div class="p-4 bg-white rounded-lg border border-slate-200 shadow-sm">
                 <span class="block font-bold text-navy">Agilidade</span>
-                <span class="text-xs text-slate-500">Respostas rápidas às suas demandas.</span>
+                <span class="text-xs text-slate-500">Cumprimento rigoroso de prazos e envios.</span>
               </div>
               <div class="p-4 bg-white rounded-lg border border-slate-200 shadow-sm">
                 <span class="block font-bold text-navy">Comprometimento</span>
-                <span class="text-xs text-slate-500">Foco no resultado do seu negócio.</span>
+                <span class="text-xs text-slate-500">Foco no resultado da gestão pública.</span>
               </div>
             </div>
 
