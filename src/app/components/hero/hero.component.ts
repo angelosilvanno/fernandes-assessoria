@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
             </span>
             
             <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold leading-snug tracking-tight max-w-xl">
-              Assessoria Contábil, Orçamentária e de <span class="text-gold">RH para o Setor Público</span>.
+              Assessoria Contábil e Orçamentária para o <span class="text-gold">Setor Público</span>.
             </h1>
 
             <p class="text-slate-300 text-base sm:text-lg max-w-xl font-normal leading-relaxed">
